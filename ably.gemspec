@@ -42,7 +42,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov-lcov', '~> 0.8.0'
   spec.add_development_dependency 'parallel_tests', '~> 3.8'
   spec.add_development_dependency 'pry', '~> 0.14.1'
-  spec.add_development_dependency 'pry-byebug', '~> 3.8.0'
+  spec.add_development_dependency 'pry-byebug', '~> 3.10.1'
 
   if RUBY_VERSION.match(/^3\./)
     spec.add_development_dependency 'webrick', '~> 1.7.0'
